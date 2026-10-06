@@ -2,7 +2,7 @@
 
 ## Scope
 
-- **CPU:** single-cycle RV32 CPU extended from Lab 1 (adds branch comparison, PC selection, stall on cache miss, `ecall` handling).
+- **CPU:** single-cycle CPU (RV32 subset): `add`, `sub`, `and`, `xor`, `mul`, `addi`, `slli`, `slti`, `srai`, `lw`, `sw`, `beq`, `bne`, `blt`, `bge`, `jal`, `jalr`, `auipc`, `ecall`. It stalls on a cache miss and, on `ecall`, waits for the cache to write back all dirty lines.
 - **Provided by the course:** data memory with 10-cycle latency and 128-bit blocks, testbench.
 - **My work:** the CPU and the cache.
 

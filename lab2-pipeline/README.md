@@ -2,7 +2,7 @@
 
 ## Scope
 
-- **ISA:** the RV32 subset from Lab 1, plus `lw`, `sw`, `beq`, `bne`.
+- **Instructions (RV32 subset):** `add`, `sub`, `and`, `xor`, `sll`, `mul`, `addi`, `srai`, `lw`, `sw`, `beq`, `bne`.
 - **Provided by the course:** register file, PC register, instruction and data memory, testbench.
 - **My work:** the CPU top level and all other modules (13 source files): four pipeline registers, control, ALU control, ALU, immediate generator, multiplexers, adder, forwarding unit, hazard detection unit.
 
