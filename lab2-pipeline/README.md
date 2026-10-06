@@ -1,9 +1,5 @@
 # Lab 2: Five-Stage Pipelined CPU
 
-> 將 Lab 1 的單週期 CPU（RV32 子集）改為 IF／ID／EX／MEM／WB 五級管線。
-> 以前饋單元處理資料危障、危障偵測單元處理 load-use 停頓；分支在 ID 判定，跳躍時清除一條指令。
-> 6 筆公開測資輸出與參考答案完全一致。
-
 ## Scope
 
 - **ISA:** the RV32 subset from Lab 1, plus `lw`, `sw`, `beq`, `bne`.

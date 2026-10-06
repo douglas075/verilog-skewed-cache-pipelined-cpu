@@ -1,9 +1,5 @@
 # Lab 3: 2-Way Skewed-Associative Cache
 
-> 為延遲 10 cycles 的資料記憶體設計快取，接上由 Lab 1 延伸的單週期 CPU。
-> 2 路偏斜相聯：第二路索引為 index XOR tag 低位；寫回＋寫入配置、LRU 替換、5 狀態 FSM。
-> 公開與隱藏測資全數通過，總週期 2,160，全班第 12。
-
 ## Scope
 
 - **CPU:** single-cycle RV32 CPU extended from Lab 1 (adds branch comparison, PC selection, stall on cache miss, `ecall` handling).
