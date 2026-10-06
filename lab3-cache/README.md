@@ -43,4 +43,4 @@ Controller states: `IDLE` (serve hits) → `WB` (write back dirty victim) → `A
 
 ## Report
 
-[report.pdf](report.pdf). One sentence was revised after submission to remove an unmeasured hit-rate claim.
+[report.pdf](report.pdf)

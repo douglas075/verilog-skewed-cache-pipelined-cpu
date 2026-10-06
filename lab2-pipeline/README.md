@@ -18,3 +18,7 @@
 
 - 6 public test programs: the per-cycle register and memory dump is identical to the reference output.
 - Yosys synthesis (NanGate45): 0 latches.
+
+## Report
+
+[report.pdf](report.pdf)

@@ -9,5 +9,4 @@ Design notes for two individual Verilog labs from Computer Architecture (Prof. C
 
 ## Notes
 
-- Source code is not published per course policy; available to reviewers upon request.
 - The problem sets and testbench were provided by NTU Computer Architecture 2025 Fall.
